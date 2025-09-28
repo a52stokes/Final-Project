@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -22,7 +23,7 @@
               alt="LOGO"
             />
             <div class="nav__logo--title">Treact</div>
-          </div>
+            </div>
           <div class="nav__links">
             <a href="#" class="nav__link">About</a>
             <a href="#" class="nav__link">Blog</a>
@@ -32,7 +33,7 @@
             <a href="#" class="nav__link nav__link--primary">Sign Up</a>
         </div>
           <button class="btn__menu" onclick="openMenu()">
-            <svg
+             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="24"
               height="24"
@@ -48,11 +49,11 @@
               <line x1="3" y1="6" x2="21" y2="6"></line>
               <line x1="3" y1="18" x2="21" y2="18"></line>
             </svg>
-          </button>
-        </div>
+        </button>
+          </div>
       </nav>
       <div class="menu">
-        <button class="btn__menu btn__menu--close" onclick="closeMenu()">
+        <button class="btn__menu btn__menu--close" onclick="closeMenu()">✕</button>
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="24"
